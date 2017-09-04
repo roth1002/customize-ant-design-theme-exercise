@@ -1,20 +1,26 @@
 .App {
-  text-align: center;
+  // text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  // animation: App-logo-spin infinite 20s linear;
+  height: calc(82px / 2);
+  width:  calc(310px / 2);
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #000;
+  height: calc(138px / 2);
+  padding: 14px calc(62px / 2);
   color: white;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.ant-tabs-tab-active.ant-tabs-tab {
+  background-color: deeppink;
+  color: white;
 }
